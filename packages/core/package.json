@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "hz-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,12 +17,14 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Run test for core\""
   },
   "dependencies": {
     "@hz-cli-dev/utils": "^1.0.2"
-  }
+  },
+  "gitHead": "f7ad53c5e1daa77988991f891022403e2e16ca90"
 }
