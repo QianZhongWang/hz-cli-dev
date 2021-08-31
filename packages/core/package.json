@@ -1,6 +1,6 @@
 {
   "name": "@hz-cli-dev/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hz-cli-dev",
   "author": "QIANZW <1870271825@gqq.com>",
   "homepage": "",
@@ -20,6 +20,6 @@
     "test": "echo \"Run test for core\""
   },
   "dependencies": {
-    "@hz-cli-dev/utils":"^1.0.0"
+    "@hz-cli-dev/utils": "^1.0.1"
   }
 }
