@@ -1,0 +1,25 @@
+{
+  "name": "@hz-cli-dev/core",
+  "version": "1.0.0",
+  "description": "hz-cli-dev",
+  "author": "QIANZW <1870271825@gqq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Run test for core\""
+  },
+  "dependencies": {
+    "@hz-cli-dev/utils":"^1.0.0"
+  }
+}
